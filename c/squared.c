@@ -1,15 +1,17 @@
-#include <stdio.h>
+#include <stdio.h>    
 
-int squared(int x) {
-	return x*x;
-}
+int squared(int x)   
+{                      
+	return x*x; 
+}                  
 
-int main() {
-	int a;
+int main()        
+{          
+	int a;   
 	int b;
-	a = 6;
+	a = 6;  
 	b = squared(2);
-	int c = a + b;
-	printf("%i", c);
+	int c = a + b; 
+	printf("%i\n\n\n\n\n\n", c);
 	return 0;
 } 
