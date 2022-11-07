@@ -2,6 +2,7 @@
 
 int main()
 {
-	printf("This is whatever I want. hello, world\n");
+	int a = 8;
+	printf("This is whatever I want. %i\n", a);
 	return 0;
 }
